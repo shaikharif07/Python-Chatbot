@@ -1,0 +1,223 @@
+#########Corpus for python Chatbot#########
+limited the subject knowledge to the sylabus 
+However this can be modified to include everything related to python.
+
+
+Python:
+    Python is an interpreted, object-oriented, high-level programming language with dynamic semantics Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. 
+
+Mission:
+    The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. 
+
+Debugging
+Programmers make mistakes, For whimsical reasons, programming errors are called bugs and the process of tracking them down is called debugging.
+
+
+Order of operations
+When an expression contains more than one operator, the order of evaluation depends on the order of operations For mathematical operators, Python follows mathematical convention The acronym PEMDAS is a useful way to remember the rules.
+
+Comments
+As programs get bigger and more complicated, they get more difficult to read Formal languages are dense, and it is often difficult to look at a piece of code and figure out what it is doing, or why.
+Comments start with a #, and Python will render the rest of the line as a comment:
+example: #This is a comment.
+
+variable: 
+A name that refers to a value assignment: A statement that assigns a value to a variable Python has no command for declaring a variable
+A variable is created the moment you first assign a value to it 
+eg:
+    x = 5
+    y = "John"
+This was example of variable.
+
+Data types:
+    In programming, data type is an important concept
+Variables can store data of different types, and different types can do different things
+Python has the following data types built-in by default, in these categories:
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+This was Data Type.
+
+Pandas:
+Pandas is a Python library used for working with data sets
+
+
+It has functions for analyzing, cleaning, exploring, and manipulating data
+Pandas allows us to analyze big data and make conclusions based on statistical theories
+Pandas can clean messy data sets, and make them readable and relevant
+Relevant data is very important in data science.
+
+NumPy:
+In Python we have lists that serve the purpose of arrays, but they are slow to process
+NumPy aims to provide an array object that is up to 50x faster than traditional Python lists
+The array object in NumPy is called ndarray, it provides a lot of supporting functions that make working with ndarray very easy
+Arrays are very frequently used in data science, where speed and resources are very important.
+
+Matplotlib:
+Matplotlib is a cross-platform, data visualization and graphical plotting library for Python and its numerical extension NumPy
+As such, it offers a viable open source alternative to MATLAB Developers can also use matplotlib's APIs (Application Programming Interfaces) to embed plots in GUI applications
+it is a low level graph plotting library in python that serves as a visualization utility
+it was created by John D. Hunter
+it is open source and we can use it freely
+it is mostly written in python, a few segments are written in C, Objective-C and Javascript for Platform compatibility.
+
+Tuples:
+    Tuples are used to store multiple items in a single variable A tuple is a collection which is ordered and unchangeable
+    mytuple = ("apple", "banana", "cherry")
+    Tuple items are ordered, unchangeable, and allow duplicate values
+Tuple items are indexed, the first item has index [0], the second item has index [1] etc.
+
+Dictionary:
+    thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+    Dictionaries are used to store data values in key:value pairs.
+
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+
+
+Set:
+    myset = {"apple", "banana", "cherry"}
+    Sets are used to store multiple items in a single variable
+
+Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+A set is a collection which is unordered, unchangeable*, and unindexed
+Sets cannot have two items with the same value.
+
+List:
+    mylist = ["apple", "banana", "cherry"]
+    Lists are used to store multiple items in a single variable
+
+list are Ordered, changeable and allow duplicates.
+    Ordered
+When we say that lists are ordered, it means that the items have a defined order, and that order will not change
+If you add new items to a list, the new items will be placed at the end of the list.
+
+Stack:
+    A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner
+    In stack, a new element is added at one end and an element is removed from that end only
+    The insert and delete operations are often called push and pop
+    The functions associated with stack are:
+
+empty() – Returns whether the stack is empty – Time Complexity: O(1)
+size() – Returns the size of the stack – Time Complexity: O(1)
+top() – Returns a reference to the topmost element of the stack – Time Complexity: O(1)
+push(a) – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
+pop() – Deletes the topmost element of the stack – Time Complexity: O(1).
+
+queue:
+    Like stack, queue is a linear data structure that stores items in First In First Out (FIFO) manner
+     With a queue the least recently added item is removed first
+     A good example of queue is any queue of consumers for a resource where the consumer that came first is served first
+
+
+Indentation
+Indentation refers to the spaces at the beginning of a code line
+Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important
+Python uses indentation to indicate a block of code.
+
+Linked-List:
+    Like arrays, Linked List is a linear data structure
+    Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers.
+
+
+Sqlite3 :
+SQLite3 module is used to integrate the SQLite database with Python 
+It is a standardized Python DBI API 2.0 and provides a straightforward and simple-to-use interface for interacting with SQLite databases 
+There is no need to install this module separately as it comes along with Python after the 2.5x version.
+
+
+File Handling:
+File handling is an important part of any web application
+Python has several functions for creating, reading, updating, and deleting files
+
+The key function for working with files in Python is the open() function
+The open() function takes two parameters; filename, and mode
+
+There are four different methods (modes) for opening a file:
+
+"r" - Read - Default value. Opens a file for reading, error if the file does not exist
+
+"a" - Append - Opens a file for appending, creates the file if it does not exist
+
+"w" - Write - Opens a file for writing, creates the file if it does not exist
+
+"x" - Create - Creates the specified file, returns an error if the file exists
+
+Python Functions
+A function is a block of code which only runs when it is called
+You can pass data, known as parameters, into a function
+A function can return data as a result
+In Python a function is defined using the def keyword:
+
+Example
+def my_function():
+  print("Hello from a function")
+
+Arguments:
+    Information can be passed into functions as arguments
+    Arguments are specified after the function name, inside the parentheses You can add as many arguments as you want, just separate them with a comma.
+
+
+Python Lambda
+A lambda function is a small anonymous function
+A lambda function can take any number of arguments, but can only have one expression
+Syntax
+lambda arguments : expression
+The expression is executed and the result is returned:
+Example
+Add 10 to argument a, and return the result:
+x = lambda a : a + 10
+print(x(5))
+
+
+Python Classes/Objects
+Python is an object oriented programming language
+Almost everything in Python is an object, with its properties and methods
+A Class is like an object constructor, or a "blueprint" for creating objects.
+
+__init__() Function
+The examples above are classes and objects in their simplest form, and are not really useful in real life applications
+To understand the meaning of classes we have to understand the built-in __init__() function
+All classes have a function called __init__(), which is always executed when the class is being initiated
+Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
+Example:
+    Create a class named Person, use the __init__() function to assign values for name and age:
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
+
+Python Inheritance :
+Inheritance allows us to define a class that inherits all the methods and properties from another class
+Parent class is the class being inherited from, also called base class
+Child class is the class that inherits from another class, also called derived class.
+
+OpenCV − Image processing library mainly focused on real-time computer vision with application in wide-range of areas like 2D and 3D feature toolkits, facial & gesture recognition, Human-computer interaction, Mobile robotics, Object identification and others.
+
+Sckikit − Provides lots of alogrithms for image processing.
+
+Python Imaging Library (PIL) − To perform basic operations on images like create thumnails, resize, rotation, convert between different file formats etc.
+
+
+Tkinter Programming
+Tkinter is the standard GUI library for Python
+Python when combined with Tkinter provides a fast and easy way to create GUI applications Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit
+Creating a GUI application using Tkinter is an easy task. All you need to do is perform the following steps
+Import the Tkinter module
+Create the GUI application main window
+Add one or more of the above-mentioned widgets to the GUI application
+Enter the main event loop to take action against each event triggered by the user.
